@@ -1,0 +1,5 @@
+Scheduling定时器
+druid连接池
+全局异常捕获
+JdbcTemplate
+自定义配置classpath路径:不冲突时候不影响默认定义的路径(默认可以和自定义同时使用)

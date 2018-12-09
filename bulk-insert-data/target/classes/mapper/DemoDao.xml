@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.hgy.dao.IDemoDao">
+	<insert id="insertBulkData" parameterType="org.hgy.pojo.Demo">
+		insert into demo(name) value
+		<!-- open="(" -->
+		<!-- close=")" foreach之外的字符 -->
+		<!-- separator=","每个循环中的字符 -->
+		<foreach collection="list"  separator=","  item="demo">
+		(#{demo.name,jdbcType=VARCHAR})
+		</foreach>
+	</insert>
+</mapper>

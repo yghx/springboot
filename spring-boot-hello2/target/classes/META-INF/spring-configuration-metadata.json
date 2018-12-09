@@ -1,0 +1,11 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.kfit.environment.MongoProperties",
+      "name": "spring.data.mongodb",
+      "type": "com.kfit.environment.MongoProperties"
+    }
+  ],
+  "properties": []
+}

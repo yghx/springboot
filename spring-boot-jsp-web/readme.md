@@ -1,0 +1,3 @@
+标准的web模板
+注解放式读取配置文件信息@Value
+各种放式修改springBoot默认启动的banner
